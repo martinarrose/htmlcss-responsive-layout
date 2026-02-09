@@ -1,0 +1,40 @@
+/* Soluzione qui */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .social-networks {
+    .label {
+      display: block;
+    }
+    .btn {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    }
+  }
+  .ads {
+    display: block;
+  }
+  .Tiramisù {
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .social-networks {
+    .label {
+      display: block;
+    }
+    .btn {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    }
+  }
+  .ads {
+    display: block;
+  }
+}
