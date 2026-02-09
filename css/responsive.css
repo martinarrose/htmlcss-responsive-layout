@@ -19,10 +19,13 @@
   .ads {
     display: block;
   }
-  .Tiramisù {
+  .clearfix {
+    img {
+      float: left;
+      padding: 10px;
+    }
   }
 }
-
 @media screen and (min-width: 992px) {
   .social-networks {
     .label {
@@ -34,7 +37,11 @@
       gap: 5px;
     }
   }
-  .ads {
-    display: block;
+
+  .clearfix {
+    img {
+      float: left;
+      padding: 10px;
+    }
   }
 }
