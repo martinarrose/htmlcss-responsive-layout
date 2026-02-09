@@ -44,4 +44,13 @@
       padding: 10px;
     }
   }
+
+  .recipe-name {
+    display: flex;
+    gap: 10px;
+
+    .recipe-origin {
+      display: block;
+    }
+  }
 }
