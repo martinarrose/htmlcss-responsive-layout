@@ -53,4 +53,18 @@
       display: block;
     }
   }
+
+  .recipe-card {
+    position: relative;
+
+    .recipe-info {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .ytmCuedOverlayHost {
+      width: 10px;
+    }
+  }
 }
