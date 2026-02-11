@@ -5,16 +5,33 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
-  .social-networks {
-    .label {
-      display: block;
+@media screen and (min-width: 500px) {
+  .clearfix {
+    text-align: justify;
+    line-height: 2rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .social-networks {
+      .label {
+        display: block;
+      }
+      .btn {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
     }
-    .btn {
-      display: flex;
-      flex-direction: row;
-      gap: 5px;
-    }
+  }
+  .recipe-name {
+    font-size: 2rem;
+  }
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .quick-notes li {
+    flex-basis: calc(100% / 3);
   }
   .ads {
     display: block;
@@ -25,8 +42,20 @@
       padding: 10px;
     }
   }
+  .recipe-card {
+    display: flex;
+
+    .recipe-video {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+  }
 }
 @media screen and (min-width: 992px) {
+  .recipe-name {
+    font-size: 2.5rem;
+  }
   .social-networks {
     .label {
       display: block;
@@ -55,16 +84,10 @@
   }
 
   .recipe-card {
-    position: relative;
-
-    .recipe-info {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    .ytmCuedOverlayHost {
-      width: 10px;
-    }
+    display: flex;
+  }
+  .recipe-video {
+    flex-basis: 80%;
+    height: auto;
   }
 }
